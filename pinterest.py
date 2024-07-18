@@ -3,7 +3,7 @@ import os
 import requests
 import random
 
-with open('pinz3.json', encoding="UTF-8") as f: #open your json file. mine contains a random board's info. namely the url pics, description etc
+with open('picturelinks.json', encoding="UTF-8") as f: #open your json file. mine contains a random board's info. namely the url pics, description etc
     data = json.load(f)
 
 picture_links = [] #for all the links
